@@ -37,4 +37,9 @@ public class MainActivity extends ReactActivity {
             new MainReactPackage()
         );
     }
+
+    @Override
+    protected String getJSMainModuleName() {
+        return "index.android";
+    }
 }
